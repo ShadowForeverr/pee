@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Windows Example</title>
+    <title>Open Window on Load</title>
 </head>
 <body>
 
-<button onclick="openWindow()">Open a new window</button>
-
 <script>
-    function openWindow() {
-        window.open('https://www.example.com', '_blank', 'width=400,height=300');
+    // This function will run as soon as the page loads
+    window.onload = function() {
+        // Open a new window
+        window.open('https://ckr01.cvschools.org/cgi-bin/blockpage/blockpage.cgi?URL=imagine.lol&CAT=Non-Managed&CATNO=-1&ACC=urmom%40cvsdstudents.org&WHY=Policy%3Dad-middle%3B+AD+Group%3Dmim-ms-standardpolicy&MOD=2&APP=&ISO=0&IPA=10.32.4.254&RAW=http%3A%2F%2Fcroxyproxy.xyz&AUTH0=%2CNon-Managed&PGE=https%3A%2F%2Fckr01.cvschools.org%2Fcgi-bin%2Fblockpage%2Fblockpage.cgi&STR=null%2Cnull%2Cnull%2Cnull%2Cnull&SRV=null&AUTH1=%2Ccroxyproxy.xyz%2CNon-Managed', '_blank', 'width=400,height=300');
     }
 </script>
 
