@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Open Window on Load</title>
+    <title>Open Windows Repeatedly</title>
 </head>
 <body>
 
 <script>
-    // This function will run as soon as the page loads
+    // This function will repeatedly open a new window every second
     window.onload = function() {
-        // Open a new window
-        window.open('https://ckr01.cvschools.org/cgi-bin/blockpage/blockpage.cgi?URL=imagine.lol&CAT=Non-Managed&CATNO=-1&ACC=urmom%40cvsdstudents.org&WHY=Policy%3Dad-middle%3B+AD+Group%3Dmim-ms-standardpolicy&MOD=2&APP=&ISO=0&IPA=10.32.4.254&RAW=http%3A%2F%2Fcroxyproxy.xyz&AUTH0=%2CNon-Managed&PGE=https%3A%2F%2Fckr01.cvschools.org%2Fcgi-bin%2Fblockpage%2Fblockpage.cgi&STR=null%2Cnull%2Cnull%2Cnull%2Cnull&SRV=null&AUTH1=%2Ccroxyproxy.xyz%2CNon-Managed', '_blank', 'width=400,height=300');
+        setInterval(function() {
+            window.open('https://ckr01.cvschools.org/cgi-bin/blockpage/blockpage.cgi?URL=imagine.lol&CAT=Non-Managed&CATNO=-1&ACC=urmom%40cvsdstudents.org&WHY=Policy%3Dad-middle%3B+AD+Group%3Dmim-ms-standardpolicy&MOD=2&APP=&ISO=0&IPA=10.32.4.254&RAW=http%3A%2F%2Fcroxyproxy.xyz&AUTH0=%2CNon-Managed&PGE=https%3A%2F%2Fckr01.cvschools.org%2Fcgi-bin%2Fblockpage%2Fblockpage.cgi&STR=null%2Cnull%2Cnull%2Cnull%2Cnull&SRV=null&AUTH1=%2Ccroxyproxy.xyz%2CNon-Managed', '_blank', 'width=400,height=300');
+        }, 1000); // 1000 milliseconds = 1 second
     }
 </script>
 
